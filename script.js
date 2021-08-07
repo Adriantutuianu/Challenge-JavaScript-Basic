@@ -97,6 +97,8 @@ console.log(overFifty);
 
 // 12. Loop through allPersons array, find and remove the one which has name Caroline.
 document.write(`<br> Task 12 <br>`);
+const withoutCaroline = allPersons.filter((item) => item.name !== "Caroline");
+console.log(withoutCaroline);
 
 // 13. Add an event listener and check when  person 2 name(Maya- from inital variable, not from allPersons array) will change it's name to any other value. When a change will be detected an alert will pop up to notify. Format: Person 2 has changed it's name. New name is `Name`.
 document.write(`<br> Task 13 <br>`);
