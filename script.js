@@ -56,9 +56,10 @@ console.log(secondPerson);
 document.write(`<br> Task 7 <br>`);
 const persons = [];
 
-// 8. push person 1 and person 2 objects to array.
+// 8. push person 1 and person 2 objects to persons array.
 document.write(`<br> Task 8 <br>`);
-
+persons.push(firstPerson, secondPerson);
+console.log(persons);
 // 9 . Create a new array called newPersons and assign 2 new persons(objects-  which will include name, surname, age) then create a new variable called allPersons and add as value persons and newPersons.
 document.write(`<br> Task 9 <br>`);
 
