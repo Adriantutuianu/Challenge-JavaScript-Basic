@@ -29,7 +29,8 @@ firstElementFromHtml.innerHTML =
 
 // 3. create a new variable called isGreater and give it the value of undefined;
 document.write(`<br> Task 3 <br>`);
-const isGreater = undefined;
+let isGreater = undefined;
+console.log(isGreater);
 // 4. Create a function called compareAge with 2 arguments. If the first argument is greater than the second it will return true
 //  otherwise return false.
 document.write(`<br> Task 4 <br>`);
@@ -43,7 +44,8 @@ const compareAge = (a, b) => {
 };
 // 5. call compareAge and pass first person age and second person age. Store the result value in isGreater variable.
 document.write(`<br> Task 5 <br>`);
-
+isGreater = compareAge(firstPerson.age, secondPerson.age);
+console.log(isGreater);
 // 6.Change the age of the second person- current age + 50 years.
 document.write(`<br> Task 6 <br>`);
 
