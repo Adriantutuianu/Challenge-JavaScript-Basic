@@ -80,9 +80,16 @@ const newPersons = [
 
 const allPersons = [...persons, ...newPersons]; //Use spread operator
 console.log(allPersons);
+
 // 10. Loop through allPersons and display the value of the youngest person Format : the youngest person is `Name Surname` which is `age` old.
 document.write(`<br> Task 10 <br>`);
 
+let youngest = allPersons.filter(function (item) {
+  return item.age == allPersons[0].age;
+});
+
+const displayedYoungest = `The youngest person is ${youngest[0].name} ${youngest[0].surname} which is ${youngest[0].age} old👴🏼👴🏻👴🏻.`;
+document.write(displayedYoungest);
 // 11.Create a new variable called overFifty and filter all the persons which are over 50 years old. For each person which is over fifty display it's value. Format: `Name` is over 50.
 document.write(`<br> Task 11 <br>`);
 
