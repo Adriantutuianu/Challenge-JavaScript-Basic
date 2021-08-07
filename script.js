@@ -100,8 +100,12 @@ document.write(`<br> Task 12 <br>`);
 const withoutCaroline = allPersons.filter((item) => item.name !== "Caroline");
 console.log(withoutCaroline);
 
-// 13. Add an event listener and check when  person 2 name(Maya- from inital variable, not from allPersons array) will change it's name to any other value. When a change will be detected an alert will pop up to notify. Format: Person 2 has changed it's name. New name is `Name`.
+// 13. Add an event listener and check when  person 2 name(Maya- from inital variable, not from allPersons array)
+//  will change it's name to any other value. When a change will be detected an alert will pop up to notify.
+//  Format: Person 2 has changed it's name. New name is `Name`.
 document.write(`<br> Task 13 <br>`);
 
 // 14. Change person 2 name from Maya to Charlotte.
 document.write(`<br> Task 14 <br>`);
+secondPerson.name = "Charlotte";
+console.log(secondPerson);
