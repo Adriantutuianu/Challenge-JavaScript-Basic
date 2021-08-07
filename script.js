@@ -84,14 +84,16 @@ console.log(allPersons);
 // 10. Loop through allPersons and display the value of the youngest person Format : the youngest person is `Name Surname` which is `age` old.
 document.write(`<br> Task 10 <br>`);
 
-let youngest = allPersons.filter(function (item) {
-  return item.age == allPersons[0].age;
-});
+let youngest = allPersons.filter((item) => item.age == allPersons[0].age);
 
 const displayedYoungest = `The youngest person is ${youngest[0].name} ${youngest[0].surname} which is ${youngest[0].age} old👴🏼👴🏻👴🏻.`;
 document.write(displayedYoungest);
-// 11.Create a new variable called overFifty and filter all the persons which are over 50 years old. For each person which is over fifty display it's value. Format: `Name` is over 50.
+
+// 11.Create a new variable called overFifty and filter all the persons which are over 50 years old. For each person which is over
+// fifty display it's value. Format: `Name` is over 50.
 document.write(`<br> Task 11 <br>`);
+const overFifty = allPersons.filter((item) => item.age > 50);
+console.log(overFifty);
 
 // 12. Loop through allPersons array, find and remove the one which has name Caroline.
 document.write(`<br> Task 12 <br>`);
