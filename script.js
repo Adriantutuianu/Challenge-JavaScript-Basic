@@ -59,10 +59,27 @@ const persons = [];
 // 8. push person 1 and person 2 objects to persons array.
 document.write(`<br> Task 8 <br>`);
 persons.push(firstPerson, secondPerson);
-console.log(persons);
-// 9 . Create a new array called newPersons and assign 2 new persons(objects-  which will include name, surname, age) then create a new variable called allPersons and add as value persons and newPersons.
+console.log(persons); //Array of objects
+
+// 9 . Create a new array called newPersons and assign 2 new persons(objects-
+//  which will include name, surname, age) then create a new variable called allPersons(array) and add as value persons and newPersons.
 document.write(`<br> Task 9 <br>`);
 
+const newPersons = [
+  {
+    name: "Maria",
+    surname: "Hunt",
+    age: 43,
+  },
+  {
+    name: "Christian",
+    surname: "Jones",
+    age: 63,
+  },
+];
+
+const allPersons = [...persons, ...newPersons]; //Use spread operator
+console.log(allPersons);
 // 10. Loop through allPersons and display the value of the youngest person Format : the youngest person is `Name Surname` which is `age` old.
 document.write(`<br> Task 10 <br>`);
 
