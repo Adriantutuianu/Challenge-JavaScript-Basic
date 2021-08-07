@@ -29,7 +29,7 @@ firstElementFromHtml.innerHTML =
 
 // 3. create a new variable called isGreater and give it the value of undefined;
 document.write(`<br> Task 3 <br>`);
-
+const isGreater = undefined;
 // 4. Create a function called compareAge with 2 arguments. If the first argument is greater than the second it will return true otherwise return false.
 document.write(`<br> Task 4 <br>`);
 
