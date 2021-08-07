@@ -1,13 +1,13 @@
 // 1. Create 2 persons which will contain name, surname and age. First person name should be Caroline and second person name will be Maya- object
 document.write(`Task 1 <br>`);
 
-const firstPerson = {
+let firstPerson = {
   name: "Caroline",
   surname: "Davids",
   age: 23,
 };
 
-const secondPerson = {
+let secondPerson = {
   name: "Maya",
   surname: "James",
   age: 56,
@@ -46,8 +46,11 @@ const compareAge = (a, b) => {
 document.write(`<br> Task 5 <br>`);
 isGreater = compareAge(firstPerson.age, secondPerson.age);
 console.log(isGreater);
-// 6.Change the age of the second person- current age + 50 years.
+
+// 6.Change the age of the second person - current age + 50 years.
 document.write(`<br> Task 6 <br>`);
+secondPerson.age = secondPerson.age + 50;
+console.log(secondPerson);
 
 // 7. Create a new variable called persons and assign an empty array.
 document.write(`<br> Task 7 <br>`);
