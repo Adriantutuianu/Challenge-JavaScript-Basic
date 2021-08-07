@@ -54,6 +54,7 @@ console.log(secondPerson);
 
 // 7. Create a new variable called persons and assign an empty array.
 document.write(`<br> Task 7 <br>`);
+const persons = [];
 
 // 8. push person 1 and person 2 objects to array.
 document.write(`<br> Task 8 <br>`);
