@@ -1,4 +1,17 @@
-// 1. Create 2 persons which will contain name, surname and age. First peson name should be Caroline and second person name will be Maya- object
+// 1. Create 2 persons which will contain name, surname and age. First person name should be Caroline and second person name will be Maya- object
+const firstPerson = {
+  name: "Caroline",
+  surname: "Davids",
+  age: 23,
+};
+
+const secondPerson = {
+  name: "Maya",
+  surname: "James",
+  age: 56,
+};
+console.log(firstPerson);
+console.log(secondPerson);
 // 2. Store persons in 2 separate variables as string. Format: `Name Surname` is `age` years old . And display their value. - document.write
 // 3. create a new variable called isGreater and give it the value of undefined;
 // 4. Create a function called compareAge with 2 arguments. If the first argument is greater than the second it will return true otherwise return false.
